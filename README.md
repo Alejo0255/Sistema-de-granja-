@@ -1,6 +1,6 @@
-# 🐄 Sistema de Gestión de Granja
+# Sistema de Gestión de Granja
 
-## 📌 Descripción del Proyecto
+##Descripción del Proyecto
 
 El **Sistema de Gestión de Granja** es una aplicación desarrollada en Java que permite administrar usuarios y animales dentro de una granja. El sistema incluye funcionalidades básicas como autenticación (login), registro de usuarios y gestión inicial de animales, utilizando una base de datos MySQL/MariaDB para almacenar la información.
 
@@ -8,7 +8,7 @@ Este proyecto fue desarrollado aplicando la metodología ágil Scrum, organizand
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Desarrollar un sistema que permita gestionar de forma sencilla y organizada los procesos básicos de una granja, garantizando control de acceso, almacenamiento de datos y facilidad de uso.
 
@@ -16,73 +16,53 @@ Desarrollar un sistema que permita gestionar de forma sencilla y organizada los 
 
 ## ⚙️ Tecnologías Utilizadas
 
-* ☕ Java (Swing para interfaz gráfica)
-* 🐬 MySQL / MariaDB
-* 🧩 JDBC (Conexión a base de datos)
-* 💻 Visual Studio Code
-* 🔗 Git y GitHub
+*  Java (Swing para interfaz gráfica)
+*  MySQL / MariaDB
+*  JDBC (Conexión a base de datos)
+*  Visual Studio Code
+*  Git y GitHub
 
 ---
 
-## 🧩 Funcionalidades Implementadas
+##  Funcionalidades Implementadas
 
-### 🔐 Módulo de Autenticación
+###  Módulo de Autenticación
 
 * Login de usuario
 * Validación contra base de datos
 * Mensajes de acceso correcto/incorrecto
 
-### 👤 Módulo de Registro
+###  Módulo de Registro
 
 * Registro de nuevos usuarios
 * Almacenamiento en base de datos
 
-### 🐄 Módulo de Animales
+###  Módulo de Animales
 
 * Estructura básica de clase Animal
 * Preparación para registro y gestión
 
-### 🔌 Conexión a Base de Datos
+###  Conexión a Base de Datos
 
 * Clase `Conexion.java`
 * Uso de JDBC para conexión con MySQL/MariaDB
 
 ---
 
-## 🗂️ Estructura del Proyecto
 
-```
-src/
-│
-├── conexion/
-│   └── Conexion.java
-│
-├── login/
-│   ├── Login.java
-│   └── Registro.java
-│
-├── menu/
-│   └── MenuPrincipal.java
-│
-├── animales/
-│   └── Animal.java
-│
-└── main/
-    └── Main.java
-```
 
 ---
 
-## 🗄️ Base de Datos
+##  Base de Datos
 
-### 📌 Crear base de datos:
+###  Crear base de datos:
 
 ```sql
 CREATE DATABASE granja;
 USE granja;
 ```
 
-### 📌 Tabla usuarios:
+###  Tabla usuarios:
 
 ```sql
 CREATE TABLE usuarios (
@@ -94,7 +74,7 @@ CREATE TABLE usuarios (
 
 ---
 
-## ▶️ Ejecución del Proyecto
+##  Ejecución del Proyecto
 
 1. Clonar repositorio:
 
@@ -116,7 +96,7 @@ main.Main
 
 ---
 
-## ⚠️ Problemas Solucionados
+##  Problemas Solucionados
 
 * Error de conexión a base de datos (NullPointerException)
 * Error de entorno gráfico (HeadlessException en Linux)
@@ -125,7 +105,7 @@ main.Main
 
 ---
 
-## 📊 Metodología de Desarrollo
+##  Metodología de Desarrollo
 
 Se utilizó Scrum con los siguientes Sprints:
 
@@ -145,7 +125,7 @@ Se utilizó Scrum con los siguientes Sprints:
 
 ---
 
-## 📈 Métricas Aplicadas
+##  Métricas Aplicadas
 
 * ✔ Puntos de Función
 * ✔ Densidad de Defectos
@@ -153,26 +133,21 @@ Se utilizó Scrum con los siguientes Sprints:
 
 ---
 
-## 👥 Equipo de Desarrollo
+##  Equipo de Desarrollo
 
 * Diego Rodríguez
 * (Agregar compañeros si aplica)
 
 ---
+---
 
-## 🔗 Repositorio
+##  Estado del Proyecto
 
-👉 (Pega aquí tu link real de GitHub)
+ En desarrollo
 
 ---
 
-## 🚀 Estado del Proyecto
-
-🟡 En desarrollo
-
----
-
-## 📌 Próximas Mejoras
+##  Próximas Mejoras
 
 * CRUD completo de animales
 * Mejorar interfaz gráfica
@@ -181,11 +156,7 @@ Se utilizó Scrum con los siguientes Sprints:
 
 ---
 
-## 📄 Licencia
 
-Este proyecto es de uso académico.
-
----
 
 
 
