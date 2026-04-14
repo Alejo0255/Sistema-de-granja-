@@ -14,7 +14,7 @@ Desarrollar un sistema que permita gestionar de forma sencilla y organizada los 
 
 ---
 
-## ⚙️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 *  Java (Swing para interfaz gráfica)
 *  MySQL / MariaDB
@@ -74,37 +74,6 @@ CREATE TABLE usuarios (
 
 ---
 
-##  Ejecución del Proyecto
-
-1. Clonar repositorio:
-
-```
-git clone https://github.com/tu-usuario/sistema-granja.git
-```
-
-2. Abrir en VS Code
-
-3. Agregar driver MySQL (`mysql-connector-j`) en carpeta `lib`
-
-4. Configurar conexión en `Conexion.java`
-
-5. Ejecutar clase principal:
-
-```
-main.Main
-```
-
----
-
-##  Problemas Solucionados
-
-* Error de conexión a base de datos (NullPointerException)
-* Error de entorno gráfico (HeadlessException en Linux)
-* Problemas con paquetes y estructura del proyecto
-* Validación de login
-
----
-
 ##  Metodología de Desarrollo
 
 Se utilizó Scrum con los siguientes Sprints:
@@ -151,7 +120,6 @@ Se utilizó Scrum con los siguientes Sprints:
 
 * CRUD completo de animales
 * Mejorar interfaz gráfica
-* Validaciones más robustas
 * Implementar reportes
 
 ---
